@@ -1,0 +1,47 @@
+{
+  "date": "2024-09-22 16:03:54",
+  "r_version": {
+    "platform": "aarch64-apple-darwin20",
+    "arch": "aarch64",
+    "os": "darwin20",
+    "system": "aarch64, darwin20",
+    "status": "",
+    "major": "4",
+    "minor": "4.1",
+    "year": "2024",
+    "month": "06",
+    "day": "14",
+    "svn rev": "86737",
+    "language": "R",
+    "version.string": "R version 4.4.1 (2024-06-14)",
+    "nickname": "Race for Your Life"
+  },
+  "parameters": {
+    "ms1": "ms_objects()$ms1",
+    "ms2": "ms_objects()$ms2",
+    "rt_lower": "input$rt_lower",
+    "rt_upper": "input$rt_upper",
+    "mz_lower": "input$mz_lower",
+    "mz_upper": "input$mz_upper",
+    "minimum_intensity": "input$minimum_intensity",
+    "iso_method": "input$iso_method",
+    "eps": "if (input$iso_method == \"dbscan\") input$eps else NULL",
+    "rt_iso_threshold": "input$rt_iso_threshold",
+    "mz_iso_threshold": "input$mz_iso_threshold",
+    "match_method": "input$match_method",
+    "smooth_method": "input$smooth_method",
+    "weights": "as.numeric(strsplit(input$weights, \",\")[[1]])",
+    "keep_features": "c(F, F)",
+    "log": "input$log_file",
+    "output": "input$output_dir"
+  },
+  "results": {
+    "Dataset 1 Unmatched": 10954,
+    "Dataset 2 Unmatched": 1704,
+    "Matched": 3084,
+    "Correct Matched Annotated Metabolites": 32,
+    "Total Matched Annotated Metabolites": 32,
+    "Percentage Correct Matched Annotated Metabolites": 1
+  },
+  "runtime": 27.852
+}
